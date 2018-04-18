@@ -1,0 +1,13 @@
+header{
+	text-align: center;
+	background: #429CD3;
+	border: 20px solid gray;
+}
+.urls{
+display: inline;
+background: gray;	
+font-family: 'Gugi', cursive;
+}
+.pres{
+/*	text-align: center;*/
+}
