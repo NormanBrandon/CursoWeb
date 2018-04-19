@@ -1,13 +1,61 @@
 header{
-	text-align: center;
 	background: #429CD3;
 	border: 20px solid gray;
+}
+table tr th img{
+	height: 200px;
+	width: 200px;	
+	margin-right: 180px;
+}
+table tr h1,table tr h2{
+	color:white;
+	
+	font-size: "7"
+	
+|
+}
+table tr th p{
+	text-align: left;
+}
+table tr th p img{
+	height: 40px;
+	width: 40px;
+	margin-left: 80px;
+	margin-right: 20px;
+
 }
 .urls{
 display: inline;
 background: gray;	
 font-family: 'Gugi', cursive;
 }
-.pres{
-/*	text-align: center;*/
+.perfil{
+text-align: center;
+background-color: #518387;
+color: white;
+}
+.competencias{
+	background: #77B1B4;
+	text-align: center;
+	color: #372265;
+		text-align: justify;
+}
+.laboral{
+
+	background: #9BABF0;
+	text-align: justify;
+}
+.c1{
+	width: 600px;
+}
+.c2{
+	width: 600px;
+}
+.c3{
+	width: 600px;
+	margin-right: 50px;
+}
+.c4{
+	width: 600px;
+	margin-left: 50px;
 }
