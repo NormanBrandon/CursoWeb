@@ -1,0 +1,141 @@
+/* Created Using Easy HTML v1.2.1 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+
+body {
+	background:#4D4D4D;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+div {
+	margin: auto;
+}
+
+
+.
+/*--------------------------------------------*/
+.pacman {
+	margin: 50px 10px;
+}
+
+.pacman1 {
+	background: #A7E22E;
+	height: 50px;
+	width: 100px;
+	border-radius: 50px 50px 0 0;	
+  position: relative;
+	animation-name: pacman1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.pacman2 {
+	background: #A7E22E;
+	height: 50px;
+	width: 100px;
+	border-radius: 0 0 50px 50px;
+  position: relative;
+	animation-name: pacman2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+/*-------------------------------------------*/
+
+
+
+
+@keyframes pacman1 {
+  0%{
+		transform: rotate(0deg);
+		left: 0px;	
+      top: 0px;
+
+}
+
+  25%{
+    transform: rotate(-45deg);
+		left: 200px;	
+      top: 0px;
+    height: 60px;
+	width: 120px;
+    border-radius: 60px 60px 0 0;	
+}
+50%{
+	 transform: rotate(0deg);
+		left: 200px;	
+      top: 200px;
+  height: 70px;
+	width: 140px;
+  border-radius: 70px 70px 0 0;	
+}
+  75%{
+transform: rotate(-45deg);
+		left: 0px;
+      top: 200px;
+	height: 80px;
+	width: 160px;
+    border-radius: 80px 80px 0 0;	
+}
+  100%{
+		transform: rotate(0deg);
+		left: 0px;
+      top: 0px;
+    height: 90px;
+	width: 180px;
+    border-radius: 90px 90px 0 0;	
+}
+}
+
+@keyframes pacman2 {
+	 0%{
+		transform: rotate(0deg);
+		left: 0px;	
+      top: 0px;
+
+}
+
+  25%{
+    transform: rotate(45deg);
+		left: 200px;	
+      top: 0px;
+    height: 60px;
+	width: 120px;
+    border-radius: 0 0 60px 60px;	
+}
+50%{
+	 transform: rotate(0deg);
+		left: 200px;	
+      top: 200px;
+  height: 70px;
+	width: 140px;
+    border-radius: 0 0 70px 70px;	
+}
+  75%{
+transform: rotate(45deg);
+		left: 0px;
+      top: 200px;
+	height: 80px;
+	width: 160px;
+    border-radius: 0 0 80px 80px;	
+}
+  100%{
+		transform: rotate(0deg);
+		left: 0px;
+      top: 0px;
+    height: 90px;
+	width: 180px;
+    border-radius: 0 0 90px 90px;	
+}
+}
+
+
+
