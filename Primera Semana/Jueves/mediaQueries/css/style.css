@@ -1,0 +1,67 @@
+p{
+	width: 80%;
+	text-align: justify;
+}
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+		
+	}
+	.inicio img{
+		width: 1350px;
+		height: 150px;
+		
+	}
+	.casa{
+		text-align: center;	
+	}
+	.casa img{
+		width: 600px;
+		height: 400px;
+	}
+	.casa p{
+		text-align: center;;
+	}
+
+}
+@media screen and (max-width: 992px) and (min-width: 600px){
+	body{
+		background: #4db6ac;
+		color: #fff;
+	}
+	.inicio img{
+		width: 750px;
+		height: 100px;
+		
+	}
+	.casa{
+		text-align: center;	
+	}
+	.casa img{
+		width: 200px;
+		height: 200px;
+	}
+	.casa p{
+		text-align: center;;
+	}
+}
+@media screen and (max-width: 400px) and (min-width: 0px){
+	body{
+		background: #004d40;
+		color: black;
+		}
+	.inicio img{
+		width: 350px;
+		height: 20px;
+		
+	}
+	.casa{
+		text-align: center;	
+	}
+	.casa img{
+		width: 200px;
+		height: 200px;
+	}
+	.casa p{
+		text-align: center;;
+	}
+	}
